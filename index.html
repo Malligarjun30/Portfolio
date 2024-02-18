@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equive="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/226f236af4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo3.png" class="logo3">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#areas">Areas of Interst</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>AI Student</p>
+            <h1>Hi, I'm <span>Malligarjun</span><br> From Tirupur</h1>
+        </div>
+    </div>
+</div>
+
+<!-------------about------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/bc.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Malligarjun,an AI Student skilled excelleance in Machine learning and Computer Vision.
+                Eager To gain practical experience from industry professionals,and contribute to the AI society. 
+                Excited to apply classroom knowledge to real-world projects, to enrich my carrier in the field 
+                of machine learning and Datascience. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experinence')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Technical</span><br>Python<br>Java<br>C/C++<br>MachineLearning<br>ComputerVision</li>
+                        <li><span>Non-Technical</span><br>Team Management<br>Drawing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experinence">
+                    <ul>
+                        <li><span>ComputerVision Intern  - 1.5 Months</span><br>National Institute of Technology,Puducherry</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Pursuing B.Tech Artificial Intelligence and Data Science<br>9.1%</li>
+                        <li><span>2021</span><br>HSC<br>94%</li>
+                        <li><span>2019</span><br>SSLC<br>93%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------services-------------->
+<div id="areas">
+    <div class="container">
+        <h1 class="sub-title">Area of Interst </i> </h1>
+        <div class="area-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Machine Learning</h2>
+                <p>Used opencv and pyautogui for the Recognition
+                and used color recognition for the gesture capturing
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Computer Vison</h2>
+                <p>Used opencv and pyautogui for the Recognition
+                and used color recognition for the gesture capturing
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Data Analytics</h2>
+                <p>Used opencv and pyautogui for the Recognition
+                and used color recognition for the gesture capturing
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work.jpg" alt="">
+                <div class="layer">
+                    <h3>Hand Gesture Recognition</h3>
+                    <p>Used opencv and pyautogui for the Recognition
+                    and used color recognition for the gesture capturing</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.jpg">
+                <div class="layer">
+                    <h3>House Price Prediction</h3>
+                    <p>Used opencv and pyautogui for the Recognition
+                    and used color recognition for the gesture capturing</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.jpg">
+                <div class="layer">
+                    <h3>Land Area Change Detection</h3>
+                    <p>Used opencv and pyautogui for the Recognition
+                    and used color recognition for the gesture capturing</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Conatct Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>arjunmalligarjun6@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9944890558</p>
+                <div class="social-icons">
+                    <a href="htt"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Malligarjun A Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email"placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Arjun.</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyPDWCGZkg6GflEph6N9Hw6OAMx_uMlhTgpQwU6B6J39NJLfiPh_Dw6hX7qixG6AnTggA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
